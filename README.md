@@ -114,10 +114,6 @@ See:
 7. Test with GPS outdoors; verify coordinates only after a valid fix.
 8. Record packet reception, distance, antenna orientation and environment in a test log. Do not publish unmeasured range claims.
 
-## Interview explanation
-
-"Her Beacon is an ESP32-based emergency alert prototype. The node can create an SOS packet with a unique origin and message ID, optional GPS coordinates, a hop limit and a CRC. It uses SX1278 LoRa and nRF24L01 interfaces. A node receiving a valid new packet suppresses duplicates and forwards it over both interfaces while reducing the TTL. This provides a simple dual-radio relay/bridging approach. The current firmware is a prototype and still requires hardware validation, security hardening and field testing."
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
